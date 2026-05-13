@@ -7,3 +7,241 @@ packages:
   gitUrl: https://github.com/Pooja-Anand-IBM-2
   gitUsername: Pooja-Anand-IBM-2
   gitBranch: main
+- name: WmCloudStreams
+  version: 12.1.0
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: licensed
+services:
+- serviceName: project.importtest.ImportTestProject.newUber.newuberservice.doctypes:Activities
+  packages:
+  - name: ImportTestProject
+    version: "1.0"
+  - name: WmCloudStreams
+    version: 12.1.0.0.65
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.importtest.ImportTestProject.newUber.newuberservice.doctypes:Activity
+  packages:
+  - name: ImportTestProject
+    version: "1.0"
+  - name: WmCloudStreams
+    version: 12.1.0.0.65
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.importtest.ImportTestProject.newUber.newuberservice.doctypes:Error
+  packages:
+  - name: ImportTestProject
+    version: "1.0"
+  - name: WmCloudStreams
+    version: 12.1.0.0.65
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.importtest.ImportTestProject.newUber.newuberservice.doctypes:PriceEstimate
+  packages:
+  - name: ImportTestProject
+    version: "1.0"
+  - name: WmCloudStreams
+    version: 12.1.0.0.65
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.importtest.ImportTestProject.newUber.newuberservice.doctypes:Product
+  packages:
+  - name: ImportTestProject
+    version: "1.0"
+  - name: WmCloudStreams
+    version: 12.1.0.0.65
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.importtest.ImportTestProject.newUber.newuberservice.doctypes:ProductList
+  packages:
+  - name: ImportTestProject
+    version: "1.0"
+  - name: WmCloudStreams
+    version: 12.1.0.0.65
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.importtest.ImportTestProject.newUber.newuberservice.doctypes:Profile
+  packages:
+  - name: ImportTestProject
+    version: "1.0"
+  - name: WmCloudStreams
+    version: 12.1.0.0.65
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.importtest.ImportTestProject.newUber.newuberservice.doctypes:csEmptyDoc
+  packages:
+  - name: ImportTestProject
+    version: "1.0"
+  - name: WmCloudStreams
+    version: 12.1.0.0.65
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.importtest.ImportTestProject.project_importtest_ImportTestProject_newUber.operations.actions:getHISTORY
+  packages:
+  - name: ImportTestProject
+    version: "1.0"
+  - name: WmCloudStreams
+    version: 12.1.0.0.65
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.importtest.ImportTestProject.project_importtest_ImportTestProject_newUber.operations.actions:getME
+  packages:
+  - name: ImportTestProject
+    version: "1.0"
+  - name: WmCloudStreams
+    version: 12.1.0.0.65
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.importtest.ImportTestProject.project_importtest_ImportTestProject_newUber.operations.actions:getPRICE
+  packages:
+  - name: ImportTestProject
+    version: "1.0"
+  - name: WmCloudStreams
+    version: 12.1.0.0.65
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.importtest.ImportTestProject.project_importtest_ImportTestProject_newUber.operations.actions:getTIME
+  packages:
+  - name: ImportTestProject
+    version: "1.0"
+  - name: WmCloudStreams
+    version: 12.1.0.0.65
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.importtest.ImportTestProject.project_importtest_ImportTestProject_uber_1.operations.actions:getHISTORY
+  packages:
+  - name: ImportTestProject
+    version: "1.0"
+  - name: WmCloudStreams
+    version: 12.1.0.0.65
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.importtest.ImportTestProject.project_importtest_ImportTestProject_uber_1.operations.actions:getME
+  packages:
+  - name: ImportTestProject
+    version: "1.0"
+  - name: WmCloudStreams
+    version: 12.1.0.0.65
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.importtest.ImportTestProject.project_importtest_ImportTestProject_uber_1.operations.actions:getPRICE
+  packages:
+  - name: ImportTestProject
+    version: "1.0"
+  - name: WmCloudStreams
+    version: 12.1.0.0.65
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.importtest.ImportTestProject.project_importtest_ImportTestProject_uber_1.operations.actions:getTIME
+  packages:
+  - name: ImportTestProject
+    version: "1.0"
+  - name: WmCloudStreams
+    version: 12.1.0.0.65
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.importtest.ImportTestProject.uber_1.uber1service.doctypes:Activities
+  packages:
+  - name: ImportTestProject
+    version: "1.0"
+  - name: WmCloudStreams
+    version: 12.1.0.0.65
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.importtest.ImportTestProject.uber_1.uber1service.doctypes:Activity
+  packages:
+  - name: ImportTestProject
+    version: "1.0"
+  - name: WmCloudStreams
+    version: 12.1.0.0.65
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.importtest.ImportTestProject.uber_1.uber1service.doctypes:Error
+  packages:
+  - name: ImportTestProject
+    version: "1.0"
+  - name: WmCloudStreams
+    version: 12.1.0.0.65
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.importtest.ImportTestProject.uber_1.uber1service.doctypes:PriceEstimate
+  packages:
+  - name: ImportTestProject
+    version: "1.0"
+  - name: WmCloudStreams
+    version: 12.1.0.0.65
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.importtest.ImportTestProject.uber_1.uber1service.doctypes:Product
+  packages:
+  - name: ImportTestProject
+    version: "1.0"
+  - name: WmCloudStreams
+    version: 12.1.0.0.65
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.importtest.ImportTestProject.uber_1.uber1service.doctypes:ProductList
+  packages:
+  - name: ImportTestProject
+    version: "1.0"
+  - name: WmCloudStreams
+    version: 12.1.0.0.65
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.importtest.ImportTestProject.uber_1.uber1service.doctypes:Profile
+  packages:
+  - name: ImportTestProject
+    version: "1.0"
+  - name: WmCloudStreams
+    version: 12.1.0.0.65
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.importtest.ImportTestProject.uber_1.uber1service.doctypes:csEmptyDoc
+  packages:
+  - name: ImportTestProject
+    version: "1.0"
+  - name: WmCloudStreams
+    version: 12.1.0.0.65
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.importtest.integrations:daftest1
+  packages:
+  - name: ImportTestProject
+    version: "1.0"
+  - name: WmCloudStreams
+    version: 12.1.0.0.65
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+configurationVariables:
+  ? iscloudstreamsconnectorservice.project..importtest..ImportTestProject..project_importtest_ImportTestProject_uber_1..operations..actions:getPRICE.connectionAlias
+  : $connectionAlias
+  ? iscloudstreamsconnectorservice.project..importtest..ImportTestProject..project_importtest_ImportTestProject_newUber..operations..actions:getHISTORY.virtualServiceName
+  : WmCloudStreams.RestVS
+  ? iscloudstreamsconnectorservice.project..importtest..ImportTestProject..project_importtest_ImportTestProject_uber_1..operations..actions:getHISTORY.virtualServiceName
+  : WmCloudStreams.RestVS
+  ? iscloudstreamsconnectorservice.project..importtest..ImportTestProject..project_importtest_ImportTestProject_uber_1..operations..actions:getTIME.connectionAlias
+  : $connectionAlias
+  ? iscloudstreamsconnectorservice.project..importtest..ImportTestProject..project_importtest_ImportTestProject_newUber..operations..actions:getTIME.connectionAlias
+  : $connectionAlias
+  ? iscloudstreamsconnectorservice.project..importtest..ImportTestProject..project_importtest_ImportTestProject_uber_1..operations..actions:getME.virtualServiceName
+  : WmCloudStreams.RestVS
+  ? iscloudstreamsconnectorservice.project..importtest..ImportTestProject..project_importtest_ImportTestProject_newUber..operations..actions:getTIME.virtualServiceName
+  : WmCloudStreams.RestVS
+  ? iscloudstreamsconnectorservice.project..importtest..ImportTestProject..project_importtest_ImportTestProject_newUber..operations..actions:getME.virtualServiceName
+  : WmCloudStreams.RestVS
+  ? iscloudstreamsconnectorservice.project..importtest..ImportTestProject..project_importtest_ImportTestProject_uber_1..operations..actions:getPRICE.virtualServiceName
+  : WmCloudStreams.RestVS
+  ? iscloudstreamsconnectorservice.project..importtest..ImportTestProject..project_importtest_ImportTestProject_newUber..operations..actions:getHISTORY.connectionAlias
+  : $connectionAlias
+  ? iscloudstreamsconnectorservice.project..importtest..ImportTestProject..project_importtest_ImportTestProject_uber_1..operations..actions:getHISTORY.connectionAlias
+  : $connectionAlias
+  ? iscloudstreamsconnectorservice.project..importtest..ImportTestProject..project_importtest_ImportTestProject_uber_1..operations..actions:getTIME.virtualServiceName
+  : WmCloudStreams.RestVS
+  ? iscloudstreamsconnectorservice.project..importtest..ImportTestProject..project_importtest_ImportTestProject_newUber..operations..actions:getPRICE.connectionAlias
+  : $connectionAlias
+  ? iscloudstreamsconnectorservice.project..importtest..ImportTestProject..project_importtest_ImportTestProject_uber_1..operations..actions:getME.connectionAlias
+  : $connectionAlias
+  ? iscloudstreamsconnectorservice.project..importtest..ImportTestProject..project_importtest_ImportTestProject_newUber..operations..actions:getME.connectionAlias
+  : $connectionAlias
+  ? iscloudstreamsconnectorservice.project..importtest..ImportTestProject..project_importtest_ImportTestProject_newUber..operations..actions:getPRICE.virtualServiceName
+  : WmCloudStreams.RestVS
